@@ -1,0 +1,351 @@
+\+worksNH-nurse01-0 startsNH-nurse01-0
+\+worksNH-nurse01-1 startsNH-nurse01-0
+\+worksNH-nurse01-2 startsNH-nurse01-0
+\+worksNH-nurse01-4 startsNH-nurse01-0
+\+worksNH-nurse01-5 startsNH-nurse01-0
+\+worksNH-nurse01-6 startsNH-nurse01-0
+
+\+startsNH-nurse01-0 worksNH-nurse01-0 
+
+\+startsNH-nurse01-0 worksNH-nurse01-1 
+ 
+\+startsNH-nurse01-0 worksNH-nurse01-2 
+ 
+\+startsNH-nurse01-0 worksNH-nurse01-4 
+ 
+\+startsNH-nurse01-0 worksNH-nurse01-5 
+ 
+\+startsNH-nurse01-0 worksNH-nurse01-6 
+
+
+\+worksNH-nurse01-1 startsNH-nurse01-1
+\+worksNH-nurse01-2 startsNH-nurse01-1 
+\+worksNH-nurse01-3 startsNH-nurse01-1 
+\+worksNH-nurse01-5 startsNH-nurse01-1 
+\+worksNH-nurse01-6 startsNH-nurse01-1 
+\+worksNH-nurse01-7 startsNH-nurse01-1 
+
+\+startsNH-nurse01-1 worksNH-nurse01-1 
+
+\+startsNH-nurse01-1 worksNH-nurse01-2 
+
+\+startsNH-nurse01-1 worksNH-nurse01-3 
+
+\+startsNH-nurse01-1 worksNH-nurse01-5 
+
+\+startsNH-nurse01-1 worksNH-nurse01-6 
+
+\+startsNH-nurse01-1 worksNH-nurse01-7
+
+
+\+worksNH-nurse01-2 startsNH-nurse01-2 
+\+worksNH-nurse01-3 startsNH-nurse01-2 
+\+worksNH-nurse01-4 startsNH-nurse01-2 
+\+worksNH-nurse01-6 startsNH-nurse01-2 
+\+worksNH-nurse01-7 startsNH-nurse01-2
+\+worksNH-nurse01-8 startsNH-nurse01-2 
+
+\+startsNH-nurse01-2 worksNH-nurse01-2 
+
+\+startsNH-nurse01-2 worksNH-nurse01-3 
+
+\+startsNH-nurse01-2 worksNH-nurse01-4 
+
+\+startsNH-nurse01-2 worksNH-nurse01-6 
+ 
+\+startsNH-nurse01-2 worksNH-nurse01-7 
+
+\+startsNH-nurse01-2 worksNH-nurse01-8 
+
+
+\+worksNH-nurse01-3 startsNH-nurse01-3 
+\+startsNH-nurse01-3 worksNH-nurse01-3 
+\+worksNH-nurse01-4 startsNH-nurse01-3 
+\+startsNH-nurse01-3 worksNH-nurse01-4 
+\+worksNH-nurse01-5 startsNH-nurse01-3 
+\+startsNH-nurse01-3 worksNH-nurse01-5 
+\+worksNH-nurse01-7 startsNH-nurse01-3 
+\+startsNH-nurse01-3 worksNH-nurse01-7 
+\+worksNH-nurse01-8 startsNH-nurse01-3 
+\+startsNH-nurse01-3 worksNH-nurse01-8 
+\+worksNH-nurse01-9 startsNH-nurse01-3 
+\+startsNH-nurse01-3 worksNH-nurse01-9 
+
+
+\+worksNH-nurse01-4 startsNH-nurse01-4 
+\+startsNH-nurse01-4 worksNH-nurse01-4 
+\+worksNH-nurse01-5 startsNH-nurse01-4 
+\+startsNH-nurse01-4 worksNH-nurse01-5 
+\+worksNH-nurse01-6 startsNH-nurse01-4 
+\+startsNH-nurse01-4 worksNH-nurse01-6 
+\+worksNH-nurse01-8 startsNH-nurse01-4 
+\+startsNH-nurse01-4 worksNH-nurse01-8 
+\+worksNH-nurse01-9 startsNH-nurse01-4 
+\+startsNH-nurse01-4 worksNH-nurse01-9 
+\+worksNH-nurse01-10 startsNH-nurse01-4 
+\+startsNH-nurse01-4 worksNH-nurse01-10 
+
+
+\+worksNH-nurse01-5 startsNH-nurse01-5 
+\+startsNH-nurse01-5 worksNH-nurse01-5 
+\+worksNH-nurse01-6 startsNH-nurse01-5 
+\+startsNH-nurse01-5 worksNH-nurse01-6 
+\+worksNH-nurse01-7 startsNH-nurse01-5 
+\+startsNH-nurse01-5 worksNH-nurse01-7 
+\+worksNH-nurse01-9 startsNH-nurse01-5 
+\+startsNH-nurse01-5 worksNH-nurse01-9 
+\+worksNH-nurse01-10 startsNH-nurse01-5 
+\+startsNH-nurse01-5 worksNH-nurse01-10 
+\+worksNH-nurse01-11 startsNH-nurse01-5 
+\+startsNH-nurse01-5 worksNH-nurse01-11 
+
+
+\+worksNH-nurse01-6 startsNH-nurse01-6 
+\+startsNH-nurse01-6 worksNH-nurse01-6 
+\+worksNH-nurse01-7 startsNH-nurse01-6 
+\+startsNH-nurse01-6 worksNH-nurse01-7 
+\+worksNH-nurse01-8 startsNH-nurse01-6 
+\+startsNH-nurse01-6 worksNH-nurse01-8 
+\+worksNH-nurse01-10 startsNH-nurse01-6 
+\+startsNH-nurse01-6 worksNH-nurse01-10 
+\+worksNH-nurse01-11 startsNH-nurse01-6 
+\+startsNH-nurse01-6 worksNH-nurse01-11 
+\+worksNH-nurse01-12 startsNH-nurse01-6 
+\+startsNH-nurse01-6 worksNH-nurse01-12
+
+
+\+worksNH-nurse01-7 startsNH-nurse01-7 
+\+startsNH-nurse01-7 worksNH-nurse01-7 
+\+worksNH-nurse01-8 startsNH-nurse01-7 
+\+startsNH-nurse01-7 worksNH-nurse01-8 
+\+worksNH-nurse01-9 startsNH-nurse01-7 
+\+startsNH-nurse01-7 worksNH-nurse01-9 
+\+worksNH-nurse01-11 startsNH-nurse01-7 
+\+startsNH-nurse01-7 worksNH-nurse01-11 
+\+worksNH-nurse01-12 startsNH-nurse01-7 
+\+startsNH-nurse01-7 worksNH-nurse01-12 
+\+worksNH-nurse01-13 startsNH-nurse01-7 
+\+startsNH-nurse01-7 worksNH-nurse01-13 
+
+
+\+worksNH-nurse01-8 startsNH-nurse01-8 
+\+startsNH-nurse01-8 worksNH-nurse01-8 
+\+worksNH-nurse01-9 startsNH-nurse01-8 
+\+startsNH-nurse01-8 worksNH-nurse01-9 
+\+worksNH-nurse01-10 startsNH-nurse01-8 
+\+startsNH-nurse01-8 worksNH-nurse01-10 
+\+worksNH-nurse01-12 startsNH-nurse01-8 
+\+startsNH-nurse01-8 worksNH-nurse01-12 
+\+worksNH-nurse01-13 startsNH-nurse01-8 
+\+startsNH-nurse01-8 worksNH-nurse01-13 
+\+worksNH-nurse01-14 startsNH-nurse01-8 
+\+startsNH-nurse01-8 worksNH-nurse01-14
+
+
+\+worksNH-nurse01-9 startsNH-nurse01-9 
+\+startsNH-nurse01-9 worksNH-nurse01-9 
+\+worksNH-nurse01-10 startsNH-nurse01-9 
+\+startsNH-nurse01-9 worksNH-nurse01-10 
+\+worksNH-nurse01-11 startsNH-nurse01-9 
+\+startsNH-nurse01-9 worksNH-nurse01-11 
+\+worksNH-nurse01-13 startsNH-nurse01-9 
+\+startsNH-nurse01-9 worksNH-nurse01-13 
+\+worksNH-nurse01-14 startsNH-nurse01-9 
+\+startsNH-nurse01-9 worksNH-nurse01-14 
+\+worksNH-nurse01-15 startsNH-nurse01-9 
+\+startsNH-nurse01-9 worksNH-nurse01-15 
+
+
+\+worksNH-nurse01-10 startsNH-nurse01-10 
+\+startsNH-nurse01-10 worksNH-nurse01-10 
+\+worksNH-nurse01-11 startsNH-nurse01-10 
+\+startsNH-nurse01-10 worksNH-nurse01-11 
+\+worksNH-nurse01-12 startsNH-nurse01-10 
+\+startsNH-nurse01-10 worksNH-nurse01-12 
+\+worksNH-nurse01-14 startsNH-nurse01-10 
+\+startsNH-nurse01-10 worksNH-nurse01-14 
+\+worksNH-nurse01-15 startsNH-nurse01-10 
+\+startsNH-nurse01-10 worksNH-nurse01-15 
+\+worksNH-nurse01-16 startsNH-nurse01-10 
+\+startsNH-nurse01-10 worksNH-nurse01-16
+
+
+\+worksNH-nurse01-11 startsNH-nurse01-11 
+\+startsNH-nurse01-11 worksNH-nurse01-11 
+\+worksNH-nurse01-12 startsNH-nurse01-11 
+\+startsNH-nurse01-11 worksNH-nurse01-12 
+\+worksNH-nurse01-13 startsNH-nurse01-11 
+\+startsNH-nurse01-11 worksNH-nurse01-13 
+\+worksNH-nurse01-15 startsNH-nurse01-11 
+\+startsNH-nurse01-11 worksNH-nurse01-15 
+\+worksNH-nurse01-16 startsNH-nurse01-11 
+\+startsNH-nurse01-11 worksNH-nurse01-16 
+\+worksNH-nurse01-17 startsNH-nurse01-11 
+\+startsNH-nurse01-11 worksNH-nurse01-17 
+
+
+\+worksNH-nurse01-12 startsNH-nurse01-12 
+\+startsNH-nurse01-12 worksNH-nurse01-12 
+\+worksNH-nurse01-13 startsNH-nurse01-12 
+\+startsNH-nurse01-12 worksNH-nurse01-13 
+\+worksNH-nurse01-14 startsNH-nurse01-12 
+\+startsNH-nurse01-12 worksNH-nurse01-14 
+\+worksNH-nurse01-16 startsNH-nurse01-12 
+\+startsNH-nurse01-12 worksNH-nurse01-16 
+\+worksNH-nurse01-17 startsNH-nurse01-12 
+\+startsNH-nurse01-12 worksNH-nurse01-17 
+\+worksNH-nurse01-18 startsNH-nurse01-12 
+\+startsNH-nurse01-12 worksNH-nurse01-18
+
+
+\+worksNH-nurse01-13 startsNH-nurse01-13 
+\+startsNH-nurse01-13 worksNH-nurse01-13 
+\+worksNH-nurse01-14 startsNH-nurse01-13 
+\+startsNH-nurse01-13 worksNH-nurse01-14 
+\+worksNH-nurse01-15 startsNH-nurse01-13 
+\+startsNH-nurse01-13 worksNH-nurse01-15 
+\+worksNH-nurse01-17 startsNH-nurse01-13 
+\+startsNH-nurse01-13 worksNH-nurse01-17 
+\+worksNH-nurse01-18 startsNH-nurse01-13 
+\+startsNH-nurse01-13 worksNH-nurse01-18 
+\+worksNH-nurse01-19 startsNH-nurse01-13 
+\+startsNH-nurse01-13 worksNH-nurse01-19 
+
+
+\+worksNH-nurse01-14 startsNH-nurse01-14 
+\+startsNH-nurse01-14 worksNH-nurse01-14 
+\+worksNH-nurse01-15 startsNH-nurse01-14 
+\+startsNH-nurse01-14 worksNH-nurse01-15 
+\+worksNH-nurse01-16 startsNH-nurse01-14 
+\+startsNH-nurse01-14 worksNH-nurse01-16 
+\+worksNH-nurse01-18 startsNH-nurse01-14 
+\+startsNH-nurse01-14 worksNH-nurse01-18 
+\+worksNH-nurse01-19 startsNH-nurse01-14 
+\+startsNH-nurse01-14 worksNH-nurse01-19 
+\+worksNH-nurse01-20 startsNH-nurse01-14 
+\+startsNH-nurse01-14 worksNH-nurse01-20 
+
+
+\+worksNH-nurse01-15 startsNH-nurse01-15 
+\+startsNH-nurse01-15 worksNH-nurse01-15 
+\+worksNH-nurse01-16 startsNH-nurse01-15 
+\+startsNH-nurse01-15 worksNH-nurse01-16 
+\+worksNH-nurse01-17 startsNH-nurse01-15 
+\+startsNH-nurse01-15 worksNH-nurse01-17 
+\+worksNH-nurse01-19 startsNH-nurse01-15 
+\+startsNH-nurse01-15 worksNH-nurse01-19 
+\+worksNH-nurse01-20 startsNH-nurse01-15 
+\+startsNH-nurse01-15 worksNH-nurse01-20 
+\+worksNH-nurse01-21 startsNH-nurse01-15 
+\+startsNH-nurse01-15 worksNH-nurse01-21 
+
+
+\+worksNH-nurse01-16 startsNH-nurse01-16 
+\+startsNH-nurse01-16 worksNH-nurse01-16 
+\+worksNH-nurse01-17 startsNH-nurse01-16 
+\+startsNH-nurse01-16 worksNH-nurse01-17 
+\+worksNH-nurse01-18 startsNH-nurse01-16 
+\+startsNH-nurse01-16 worksNH-nurse01-18 
+\+worksNH-nurse01-20 startsNH-nurse01-16 
+\+startsNH-nurse01-16 worksNH-nurse01-20 
+\+worksNH-nurse01-21 startsNH-nurse01-16 
+\+startsNH-nurse01-16 worksNH-nurse01-21 
+\+worksNH-nurse01-22 startsNH-nurse01-16 
+\+startsNH-nurse01-16 worksNH-nurse01-22
+
+
+\+worksNH-nurse01-17 startsNH-nurse01-17 
+\+startsNH-nurse01-17 worksNH-nurse01-17 
+\+worksNH-nurse01-18 startsNH-nurse01-17 
+\+startsNH-nurse01-17 worksNH-nurse01-18 
+\+worksNH-nurse01-19 startsNH-nurse01-17 
+\+startsNH-nurse01-17 worksNH-nurse01-19 
+\+worksNH-nurse01-21 startsNH-nurse01-17 
+\+startsNH-nurse01-17 worksNH-nurse01-21 
+\+worksNH-nurse01-22 startsNH-nurse01-17 
+\+startsNH-nurse01-17 worksNH-nurse01-22 
+\+worksNH-nurse01-23 startsNH-nurse01-17 
+\+startsNH-nurse01-17 worksNH-nurse01-23 
+
+
+\+worksNH-nurse01-18 startsNH-nurse01-18 
+\+startsNH-nurse01-18 worksNH-nurse01-18 
+\+worksNH-nurse01-19 startsNH-nurse01-18 
+\+startsNH-nurse01-18 worksNH-nurse01-19 
+\+worksNH-nurse01-20 startsNH-nurse01-18 
+\+startsNH-nurse01-18 worksNH-nurse01-20 
+\+worksNH-nurse01-22 startsNH-nurse01-18 
+\+startsNH-nurse01-18 worksNH-nurse01-22 
+\+worksNH-nurse01-23 startsNH-nurse01-18 
+\+startsNH-nurse01-18 worksNH-nurse01-23 
+\+worksNH-nurse01-0 startsNH-nurse01-18 
+\+startsNH-nurse01-18 worksNH-nurse01-0
+
+
+\+worksNH-nurse01-19 startsNH-nurse01-19 
+\+startsNH-nurse01-19 worksNH-nurse01-19 
+\+worksNH-nurse01-20 startsNH-nurse01-19 
+\+startsNH-nurse01-19 worksNH-nurse01-20 
+\+worksNH-nurse01-21 startsNH-nurse01-19 
+\+startsNH-nurse01-19 worksNH-nurse01-21 
+\+worksNH-nurse01-23 startsNH-nurse01-19 
+\+startsNH-nurse01-19 worksNH-nurse01-23 
+\+worksNH-nurse01-0 startsNH-nurse01-19 
+\+startsNH-nurse01-19 worksNH-nurse01-0 
+\+worksNH-nurse01-1 startsNH-nurse01-19 
+\+startsNH-nurse01-19 worksNH-nurse01-1 
+
+
+\+worksNH-nurse01-20 startsNH-nurse01-20 
+\+startsNH-nurse01-20 worksNH-nurse01-20 
+\+worksNH-nurse01-21 startsNH-nurse01-20 
+\+startsNH-nurse01-20 worksNH-nurse01-21 
+\+worksNH-nurse01-22 startsNH-nurse01-20 
+\+startsNH-nurse01-20 worksNH-nurse01-22 
+\+worksNH-nurse01-0 startsNH-nurse01-20 
+\+startsNH-nurse01-20 worksNH-nurse01-0 
+\+worksNH-nurse01-1 startsNH-nurse01-20 
+\+startsNH-nurse01-20 worksNH-nurse01-1 
+\+worksNH-nurse01-2 startsNH-nurse01-20 
+\+startsNH-nurse01-20 worksNH-nurse01-2 
+
+\+worksNH-nurse01-21 startsNH-nurse01-21 
+\+startsNH-nurse01-21 worksNH-nurse01-21 
+\+worksNH-nurse01-22 startsNH-nurse01-21 
+\+startsNH-nurse01-21 worksNH-nurse01-22 
+\+worksNH-nurse01-23 startsNH-nurse01-21 
+\+startsNH-nurse01-21 worksNH-nurse01-23 
+\+worksNH-nurse01-1 startsNH-nurse01-21 
+\+startsNH-nurse01-21 worksNH-nurse01-1 
+\+worksNH-nurse01-2 startsNH-nurse01-21 
+\+startsNH-nurse01-21 worksNH-nurse01-2 
+\+worksNH-nurse01-3 startsNH-nurse01-21 
+\+startsNH-nurse01-21 worksNH-nurse01-3
+
+
+\+worksNH-nurse01-22 startsNH-nurse01-22 
+\+startsNH-nurse01-22 worksNH-nurse01-22 
+\+worksNH-nurse01-23 startsNH-nurse01-22 
+\+startsNH-nurse01-22 worksNH-nurse01-23 
+\+worksNH-nurse01-0 startsNH-nurse01-22 
+\+startsNH-nurse01-22 worksNH-nurse01-0 
+\+worksNH-nurse01-2 startsNH-nurse01-22 
+\+startsNH-nurse01-22 worksNH-nurse01-2 
+\+worksNH-nurse01-3 startsNH-nurse01-22 
+\+startsNH-nurse01-22 worksNH-nurse01-3 
+\+worksNH-nurse01-4 startsNH-nurse01-22 
+\+startsNH-nurse01-22 worksNH-nurse01-4 
+
+
+\+worksNH-nurse01-23 startsNH-nurse01-23 
+\+startsNH-nurse01-23 worksNH-nurse01-23 
+\+worksNH-nurse01-0 startsNH-nurse01-23 
+\+startsNH-nurse01-23 worksNH-nurse01-0 
+\+worksNH-nurse01-1 startsNH-nurse01-23 
+\+startsNH-nurse01-23 worksNH-nurse01-1 
+\+worksNH-nurse01-3 startsNH-nurse01-23 
+\+startsNH-nurse01-23 worksNH-nurse01-3 
+\+worksNH-nurse01-4 startsNH-nurse01-23 
+\+startsNH-nurse01-23 worksNH-nurse01-4 
+\+worksNH-nurse01-5 startsNH-nurse01-23 
+\+startsNH-nurse01-23 worksNH-nurse01-5 

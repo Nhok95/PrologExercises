@@ -1,0 +1,191 @@
+Constraint Programming en SWIPROLOG
+===================================
+
+* Definir un problema de CP consisteix en:
+
+  (1) Definir quines variables es faran servir i el seu significat
+
+  (2) Determinar el domini de les variables
+
+  (3) Establir les restriccions entre les variables
+
+
+* Els programes en CP són basicament la definició del problema. En GNU
+  Prolog, els programes tenen la següent estructura:
+
+  (a) Definició dels dominis de les variables
+
+  (b) Declaració de les restriccions entre les variables
+
+  (c) Generació de solucions
+
+* Per tal de carregar la llibreria de dominis finits corresponent, cal:
+
+?- use_module(library(clpfd)).
+
+* Exemple 1: problema de les 8 reines ( = tauler d'escacs)
+
+  Donat un tauler quadrat amb 8x8 caselles, disposar 8 reines sense
+  que es matin entre elles.
+
+  * A cada columna no pot haver-hi dues reines, i per tant podem
+  assignar files a columnes. La variable Xi Ã©s la fila corresponent a
+  la columna i.
+
+  * Cadascuna d'aquestes variables pot prendre valors entre 1 i 8
+  (les files possibles)
+
+  * Les restriccions sobre aquestes variables són:
+
+    * Xi != Xj si i < j               (no n'hi ha 2 a la mateixa fila)
+
+    * Xi != Xj - (j - i),             (no n'hi ha 2 a la mateixa diagonal)
+      Xi != Xj + (j - i)  si i < j
+
+    La línia de (a, b) a (a', b') és paral·lela a (1, 1)  sii
+    (a' - a, b' - b) és múltiple de (1, 1)                sii
+    a' - a = s = b' - b                                   sii
+    b = b' - (a' - a)
+
+    La línia de (a, b) a (a', b') és paral·lela a (1, -1) sii
+    (a' - a, b' - b) és múltiple de (1, -1)               sii
+    a' - a = s = b - b'                                   sii
+    b = b' + (a' - a)
+
+    (la restricció que no hi ha dues reines en una mateixa
+    columna es satisfà  per la formalització)
+    
+* Estructura dels programes Prolog en Constraint Programming
+
+  1) Es defineixen les variables i els dominis on prenen valors
+
+  2) Es donen les restriccions sobre aquestes variables
+
+  3) Es generen candidats a solucions
+
+
+1) Definició de variables i dels dominis on prenen valors
+---------------------------------------------------------
+
+  Variables FD en SWIPROLOG
+  -----------------------
+
+* SWIPROLOG té un tipus especial de variables, les variables FD (Finite
+  Domain), que només poden prendre valors en els dominis respectius.
+
+* Per defecte, el domini d'una variable FD són tots els enters. De
+  tota manera, es recomana declarar el domini de cada variable FD.
+  Tenim dos predicats per a fer-ho (in, ins):
+
+  X in -2..4           --> X pertany a [-2,4]
+  X in -2..4 \/ 5..8   --> X pertany a [-2,4] U [5,8]
+  [X,Y] ins -2..4 \/ 5..8 --> ambdues variables reben el mateix domini [-2,4] U [5,8]
+
+* Les variables FD són compatibles amb els enters i amb variables
+  Prolog normals (per aquest motiu no cal declarar-les de manera
+  especial).
+
+* Durant l'execució del programa, el domini d'una variable FD es va
+  reduint pas a pas gràcies a les restriccions.
+
+2) Declaració de les restriccions
+---------------------------------
+
+Les restriccions tenen com a component bàsic les expressions
+aritmètiques.
+
+* Expressions aritmètiques
+
+  Una expressió aritmètica FD és un terme Prolog construït a partir
+  d'enters, variables i functors que representen funcions
+  aritmètiques.  Les expressions compostes són del tipus:
+
+      -  E
+  E1  +  E2
+  E1  -  E2
+  E1  *  E2
+  E1 **  E2     E1 elevat a E2
+  min(E1, E2)
+  max(E1, E2)
+  dist(E1, E2)  |E1 - E2|
+  E1 //  E2     divisió entera de E1 entre E2
+  E1 rem E2     residu de E1 entre E2
+
+
+A partir de les expressions aritmètiques, es poden construir
+restriccions aritmètiques.
+
+* Restriccions aritmètiques
+
+  E1 #=  E2   força a que E1 sigui igual    a E2
+  E1 #\= E2   força a que E1 sigui diferent a E2
+  E1 #<  E2    ...
+  E1 #>  E2
+  E1 #=< E2
+  E1 #>= E2
+
+Les restriccions es poden composar amb operadors booleans per formar
+restriccions més complexes.
+
+* Restriccions booleanes
+
+  0             fals
+  1             cert
+  #\ E          no E
+  E1 #/\   E2   E1 and  E2
+  E1 #\/   E2   E1 or   E2
+  E1 #==>  E2   E1 implica E2
+  E1 #<=>  E2   E1 equivalent a E2
+  E1 #\<=> E2   E1 diferent de E2
+
+De vegades convé forçar a que el nombre de restriccions que es fan
+certes sigui un cert nombre.
+
+
+* Altres restriccions:
+
+all_different(List)    força a que totes les variables de List
+			  preguin valors diferents.
+
+
+element_var(I, L, X)   força a que X sigui igual al I-esim element
+                          (començant per 1) de la llista L.
+
+3) Generació de candidats a solucions (etiquetatge)
+---------------------------------------------------
+
+labeling(Opts, Vars) assigna un valor a cada variable X de la
+llista Vars d'acord amb la llista d'opcions Opts. El domini
+de tota variable ha de ser finit. Les opcions permeten controlar
+el procés de cerca. Diferentes categories existeixen:
+
+* Determina quina és la variable que s'instancia a continuació:
+  (leftmost, ff, ffc, min, max) [veure http://www.swi-prolog.org/man/clpfd.html per una
+  descripció detallada]
+
+* Determina quin valor s'escull per instanciar
+  (up,down)
+
+* Estratègia de branching:
+  (step, enum, bisect)
+
+Com a molt una opció de cada categoria es pot especificar, i cap opció pot apareixer repetida.
+L'order de les solucions es pot influenciar amb:
+
+    min(Expr)
+    max(Expr)
+
+Aixó genera solucions en ordre ascendent/descendent amb respecte a l'avaluació de l'expressió
+aritmèica Expr. El labeling ha d'instanciar totes les variables que apareixen en Expr.
+Si s'especifiquen diverses opcions d'aquest tipus, s'interpreten d'esquerra a dreta, e.g:
+
+?- [X,Y] ins 10..20, labeling([max(X),min(Y)],[X,Y]).
+
+Genera solucions en ordre descendent de X i, per cada X, les solucions es generen en ordre
+ascendent de Y.
+
+
+Extra:
+  help(funció)     %mostra la documentació de la funció
+  apropos(funció)  %busca la paraula clau funció i et retorna les coincidencies
+

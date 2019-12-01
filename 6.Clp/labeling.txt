@@ -1,0 +1,56 @@
+Assign a value to each variable in Vars. Labeling means systematically trying out 
+values for the finite domain variables Vars until all of them are ground. 
+The domain of each variable in Vars must be finite. Options is a list of options that
+let you exhibit some control over the search process. Several categories of options exist:
+
+The variable selection strategy lets you specify which variable
+of Vars is labeled next and is one of:
+
+leftmost: Label the variables in the order they occur in Vars. This is the default.
+
+ff:  First fail. Label the leftmost variable with smallest domain next, in order 
+      to detect infeasibility early. This is often a good strategy.
+
+ffc:  Of the variables with smallest domains, the leftmost one participating
+       in most constraints is labeled next.
+
+min:  Label the leftmost variable whose lower bound is the lowest next.
+
+max:  Label the leftmost variable whose upper bound is the highest next.
+
+
+The value order is one of:
+
+up:  Try the elements of the chosen variable's domain in ascending order. 
+      This is the default.
+
+down:  Try the domain elements in descending order.
+
+The branching strategy is one of:
+
+step:  For each variable X, a choice is made between X = V and X #\= V,
+        where V is determined by the value ordering options. This is the default.
+
+enum:  For each variable X, a choice is made between X = V_1, X = V_2 etc.,
+        for all values V_i of the domain of X. The order is determined by the
+         value ordering options.
+         
+bisect:  For each variable X, a choice is made between X #=< M and X #> M,
+          where M is the midpoint of the domain of X.
+
+At most one option of each category can be specified, and an option must not occur repeatedly.
+
+The order of solutions can be influenced with:
+
+    min(Expr)
+    max(Expr)
+
+This generates solutions in ascending/descending order with respect to the evaluation of the arithmetic expression Expr. Labeling Vars must make Expr ground. If several such options are specified, they are interpreted from left to right, e.g.:
+
+?- [X,Y] ins 10..20, labeling([max(X),min(Y)],[X,Y]).
+
+This generates solutions in descending order of X, and for each binding of X, solutions are generated in ascending order of Y. To obtain the incomplete behaviour that other systems exhibit with "maximize(Expr)" and "minimize(Expr)", use once/1, e.g.:
+
+once(labeling([max(Expr)], Vars))
+
+Labeling is always complete, always terminates, and yields no redundant solutions. See core relations and search (section A.8.9) for usage advice.

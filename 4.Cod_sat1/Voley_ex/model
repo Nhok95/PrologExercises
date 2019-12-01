@@ -1,0 +1,43 @@
+c PicoSAT SAT Solver Version 960
+c Copyright (c) 2006 - 2014 Armin Biere JKU Linz
+c gcc -Wall -Wextra -DNDEBUG -O3
+c
+c using 2 as default phase
+c
+c parsing infile.cnf
+c parsed header 'p cnf 4080 57327'
+c initialized 4080 variables
+c found 57327 non trivial clauses
+c
+c random number generator seed 0
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+c 0   0.0   0.0  4046   1.2  1616     3     0     0   0.0   1.5 
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+s UNSATISFIABLE
+c
+c 0 iterations
+c 0 restarts
+c 2 failed literals
+c 3 conflicts
+c 0 decisions
+c 34 fixed variables
+c 18 learned literals
+c 0.0% deleted literals
+c 3037 propagations
+c 2875 visits
+c 1.2% variables used
+c 0.0 seconds in library
+c 0.2 megaprops/second
+c 0.2 megavisits/second
+c probing 0.0 seconds 25%
+c 0 simplifications
+c 0 reductions
+c 0.0 MB recycled
+c 1.5 MB maximally allocated
+c 0.0 seconds total run time
